@@ -1,38 +1,122 @@
 .App {
-  text-align: center;
+  display: flex;
+  /* background-color: black; */
+  justify-content: space-between;
+  border: 2px solid black;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d6d3d1;
+  width: 92%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Sidebar {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  width: 18%;
+  height: 100vw;
+}
+
+.Header {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  border: 2px solid black;
+  background-color: white;
+  width: 800px;
+  height: 35px;
+  margin: 5px;
+}
+.Subheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: white;
+  width: 800px;
+  height: 35px;
+  margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: white;
+  width: 300px;
+  height: 200px;
+  margin: 40px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: white;
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+  padding: none;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: #d6d3d1;
+  width: 200px;
+}
+
+.Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: white;
+  height: 300px;
+  width: 1000px;
+  margin: 20px;
+}
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.rapper {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.Image2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.Main2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
 }
